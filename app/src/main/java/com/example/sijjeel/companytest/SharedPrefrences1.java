@@ -17,6 +17,8 @@ import butterknife.OnClick;
 public class SharedPrefrences1 extends AppCompatActivity {
 
 
+    // your work is in perfect form
+
     @BindView(R.id.etmessage)
     EditText etmessage;
     @BindView(R.id.btnsave)
@@ -43,10 +45,10 @@ public class SharedPrefrences1 extends AppCompatActivity {
             editor.apply();
             etmessage.setText("");
 
-            Toast.makeText(SharedPrefrences1.this, "Data Saved", Toast.LENGTH_SHORT);
+            Toast.makeText(SharedPrefrences1.this, "Data Saved", Toast.LENGTH_SHORT).show();
         }else
         {
-            Toast.makeText(SharedPrefrences1.this, "Insert Message", Toast.LENGTH_SHORT);
+            Toast.makeText(SharedPrefrences1.this, "Insert Message", Toast.LENGTH_SHORT).show();
         }
 
     }
@@ -68,7 +70,7 @@ public class SharedPrefrences1 extends AppCompatActivity {
             etmessage.setText(data);
         }else
         {
-            Toast.makeText(SharedPrefrences1.this, "Empty", Toast.LENGTH_SHORT);
+            Toast.makeText(SharedPrefrences1.this, "Empty", Toast.LENGTH_SHORT).show();
         }
     }
 }
