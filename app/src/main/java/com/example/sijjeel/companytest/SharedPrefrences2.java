@@ -15,8 +15,8 @@ public class SharedPrefrences2 extends AppCompatActivity {
 
     @BindView(R.id.btnback)
     Button btnback;
-//This change is don
-    ///change is done please correct
+//This change is done
+    ///change is done please check that
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
